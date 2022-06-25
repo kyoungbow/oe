@@ -1,0 +1,213 @@
+    body {margin: 0;}
+    .img {background: url(../images/fish.PNG) ; width: 978px; height: 300px; margin: 0 auto; background-size: 100% 100%;}
+    .header h1{text-align: center; margin: 0 auto; padding: 140px; color: #ccc;}
+    .img2 {background: url(../images/lod1.PNG) ; width: 978px; height: 120px; margin: 0 auto 30px; background-size: 100% 100%;}
+    .header2 a {text-decoration: none; color: black;}
+    .img2 a {background-image: url(../images/fish-bones-g30d45de35_1280.png); background-size: 100% 100%; padding: 30px 30px 3px; margin: 45px 10px; float: left; width: 40px; height: 20px; font-weight: bold; color: #222;}
+    
+    .img2::after{content: ' '; display: block; clear: both;} 
+           
+    .footer {padding: 10px; margin: 30px 0 0 0;}
+    .feet {width: 310px; margin: 0 auto;}
+    .under-line p {font-size:3px}
+    address h3{margin: 0 0 20px 0;}
+    .footimg{background: url(../images/silhouette-3088098_1280.png); width: 106px; height: 110px; background-size: 100% 100%; float: left;}
+    .under-line {text-align: center; float:left }
+    .footer::after {content: ' '; display: block; clear: both;}
+
+    /* contract */
+    .contract-content {border: 2px solid  rgb(47, 46, 46); border-radius: 30px; width: 500px; height: auto; padding: 20px; margin: 0 auto;}
+    .first h2 {text-align: center;}
+    .contract {padding: 10px 0;}
+    .first {border-bottom: 3px solid rgb(54, 53, 53);}
+    .second {border-bottom: 2px solid ; border-bottom-color: rgb(82, 79, 79); font-weight: bold; margin: 20px 0; padding: 0 0 20px 0;}
+    .textarea1 {width: 500px; height: 100px; resize: none; margin: 20px 0;}
+    .contract-button a {border: 2px solid rgb(82, 79, 79); border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                        text-decoration: none; margin: 40px 30px 15px 30px; display: block; color: rgb(135, 132, 132);}
+    /* detail */
+    .detail {width: 978px; margin: 0 auto;}
+    .detail-content {width: 700px; margin: 0 auto;}
+    .fisher {background: url(../images/fisherman-4985711_1280.png); width: 700px; height: 250px; background-size: 100% 100%; margin: 0 0 10px 0;}
+    .notice-detail{border-top: 2px solid; border-bottom: thick double; table-layout: fixed; padding: 10px; }
+    .bno {color: #444; float: left; margin: 0 auto; font-size: 12px; text-align: center; font-size: 15px; color :rgb(212, 69, 69);}
+    .title {color: #222; float: left; margin: 0px 20px 0 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 450px; font-size: 18px;}
+    .date {color: #444; float: left; margin: 0 auto; font-size: 15px; text-align: center;}
+    .name {color: #666; float: right; margin: auto; font-size: 15px; text-align: center;}
+    .attach {margin : 10px 15px; font-size : 14px; color: #666;}
+    .attachs {width: 670px; margin : 10px 15px; font-size : 14px; color: #666; text-decoration: none; list-style-type: decimal;}
+    .attachs li{margin: 5px 0 5px 10px;}
+    .replies1 h3{margin : 0 ; width: 700px; font-size: 16px; color: #444;}
+    .replies1 {width: 670px; margin : 0 0 10px 15px; font-size : 18px; color: #444; text-decoration: none; list-style-type: decimal;}
+    .notice-detail::after {content: ' '; display: block; clear: both;}
+    .text-contents {text-align: center; margin: 20px  0 0 0;}
+    .text-contents textarea {width: 650px; height: 300px; resize: none; font-size: 16px; padding: 10px; border-radius: 3px;}
+    .detail-button a {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold; width: 200px;
+                     text-decoration: none; margin: 10px 0 0 0; color: rgb(135, 132, 132);}
+    .detail-button {margin: 20px 10px 0 495px; text-align: right;}
+    .modify-button {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 10px; text-align: center; font-weight: bold; width: 70px; height: 35px;
+        text-decoration: none; margin: 10px 0 0 0; color: rgb(135, 132, 132);}
+    
+    .reply-button {margin: 0 0 0 570px; text-align: right; border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold; width: 70px;
+        text-decoration: none;  color: rgb(135, 132, 132);}
+
+    /* free */
+    .free {background-image: url(../images/frame-g871c7c284_1280.png); background-repeat: no-repeat; background-size: 100% 100%; 
+        width: 978px; height: 1020px; margin: 0 auto; padding: 180px 0 0 0;}
+    .board h1 {text-align: center; margin: 0 0 20px 0; font-size: 100px;}
+    a { text-decoration: none; color: #222; }
+    .free-content {margin: 0 auto; width: 700px;}
+    .free-content table {border-collapse: collapse; width: 700px; table-layout: fixed;} 
+    tr th { border-bottom: thick double rgb(47, 46, 46); font-size: 20px; }
+    td {border-top: 2px solid; border-bottom: 2px solid; text-align: center;}
+    .free-content th, .free-content td {padding: 8px;}
+    .col1 {width: 8%;}
+    .col3, .col4 {width: 15%;}
+    td {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .text-align-left {font-size: 12px; text-align: left; }
+    td a {color: rgb(53, 49, 49);}
+    .free tr + tr {transition: all 1s;}
+    .free tr + tr:hover {background-color: rgb(180, 180, 180);}
+    .button a {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                text-decoration: none; margin: 20px 30px 20px 550px; display: block; color: rgb(135, 132, 132);}
+    .page {margin: 50px auto; text-align: center;}
+    .page a { padding: 0 5px 5px 0; text-align: center; font-weight: bold;  font-size: 12px;
+                text-decoration: none;   color: rgb(135, 132, 132);}
+    .page a:hover{background-image: none; font-style: italic;  background: url(../images/fish-hook-2027781_1280.png); background-size: 100% 100%;}
+    span {font-weight: bold; color: rgb(212, 69, 69);white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .gallery::after {content: ''; display: block; clear: both;}        
+    .gallery-hold {text-align: center; width: 200px; float:left ; margin: 0 16px 0 16px ;}
+   
+    /* notice */
+    .notice {background-image: url(../images/frame-g871c7c284_1280.png); background-repeat: no-repeat; background-size: 100% 100%; 
+                  width: 978px; height: 850px; margin: 0 auto; padding: 180px 0 0 0;}
+    .board h1 {text-align: center; margin: 0 0 20px 0; font-size: 100px;}
+    a { text-decoration: none;}
+    .notice-content {margin: 0 auto; width: 700px;}
+    .notice-content table {border-collapse: collapse; width: 700px;table-layout: fixed;} 
+    tr th { border-bottom: thick double rgb(47, 46, 46); font-size: 20px; }
+    td {border-top: 2px solid; border-bottom: 2px solid; text-align: center;}
+    .notice-content th, .notice-content td {padding: 8px;}
+    .col1 {width: 8%;}
+    .col3, .col4 {width: 15%;}
+    .notice tr td + td {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .text-align-left {font-size: 12px; text-align: left; }
+    td a {color: rgb(53, 49, 49);}
+    .notice tr + tr {transition: all 1s;}
+    .notice tr + tr:hover {background-color: rgb(180, 180, 180);}
+    .button a {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                text-decoration: none; margin: 20px 30px 20px 550px; display: block; color: rgb(135, 132, 132);}
+    .page {margin: 50px auto; text-align: center;}
+    .page a { padding: 0 5px 5px 0; text-align: center; font-weight: bold;  font-size: 12px;
+                text-decoration: none;   color: rgb(135, 132, 132);}
+    .page a:hover{background-image: none; font-style: italic;  background: url(../images/fish-hook-2027781_1280.png); background-size: 100% 100%;}
+    span {font-weight: bold; color: rgb(212, 69, 69);white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    
+    /* signin */
+    .signin {border: 1px; width: 978px; margin: 0 auto;}
+    .main-container {width: 750px; height: 750px; background-image: url(../images/fishing-5327196_1280.png); background-size: 100% 100%; padding: 10px; margin: 0 auto;}
+    
+    .signin-container {border-radius: 100px; width: 500px; height: auto; padding: 50px 0 20px 0; margin: 100px auto;
+                background-color: rgb(255, 255, 255); color: rgb(82, 79, 79); transition: all 2s;}
+    .signin-container:hover { background-color:rgb(43, 42, 42); color: #eee;}
+    .signin-container::after {content: ''; display: block; clear: both;}
+
+    .signin-container-find {border-radius: 100px; width: 500px; height: 350px; padding: 50px 0 20px 0; margin: 100px auto;
+            background-color: rgb(255, 255, 255); color: rgb(82, 79, 79); transition: all 2s;}
+    .signin-container-find:hover { background-color:rgb(43, 42, 42); color: #eee;}
+    .signin-container-find::after {content: ''; display: block; clear: both;}
+    
+    .signin-content {padding: 10px 20px; width: 250px; float: left;}
+    .signin-side { width: 130px; height: 130px; margin: 10px 50px 0 0; float: right; }
+    
+    .singnin-content input {border-radius: 5px;}
+    .signin-button button {border: 2px solid #eee ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                text-decoration: none; margin: 10px 5px 10px 5px; display: block; width : 160px; color: rgb(135, 132, 132); background-color: #ffffff; opacity: 0.5;}
+    .signin-button a {border: 2px solid #eee ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                text-decoration: none; margin: 10px 5px 10px 5px; display: block; width : 160px; color: rgb(135, 132, 132); background-color: #ffffff; opacity: 0.5;}
+    .new {text-align: center; font-weight: bold;
+                text-decoration: none; margin: 320px 0 10px 0; display: block; color: rgb(135, 132, 132);}            
+          
+    /* signup */
+    .signup {border: 1px; width: 978px; margin: 0 auto;}
+    .signup-container {border-radius: 50px; width: 600px; height: auto; border: 2px solid  rgb(43, 42, 42); margin: 0 auto;
+                background-color:  rgb(255, 255, 255); color: rgb(82, 79, 79); transition: all 2s;}
+    .signup-container:hover { background-color:rgb(43, 42, 42); color: #eee;}
+    .signup-container::after {content: ''; display: block; clear: both;}
+    .signup .signup-container h1 {padding: 20px 0 0 20px}
+    .signup-contentinput {border-radius: 5px; width: 250px;}
+    .signup-content {padding: 20px; width: 300px; float: left;}
+    .signup-side { width: 200px; height: 200px; margin: 50px 50px 0 0; float: right;}
+    .signup-button a {border: 2px solid #eee ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+                text-decoration: none; margin: 15px 47px 15px 5px; display: block; color: rgb(135, 132, 132);}
+    .signup-button button {border: 2px solid #eee ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold;
+        text-decoration: none; margin: 10px 5px 10px 5px; display: block; width : 160px; color: rgb(135, 132, 132); background-color: #ffffff; opacity: 0.5;}
+    .already {text-align: center; font-weight: bold;
+                text-decoration: none; margin: 680px 70px 40px 70px; display: block; color: rgb(135, 132, 132);}
+    /* write */
+    .write {width: 978px; margin: 0 auto;}
+    .write-content {width: 700px; margin: 0 auto;}
+    
+    .fisher {background: url(../images/fisherman-4985711_1280.png); width: 700px; height: 250px; background-size: 100% 100%; margin: 0 0 10px 0;}
+    .write-head{border-top: 2px solid; border-bottom: thick double; table-layout: fixed; padding: 10px; text-align: center;}
+    .write-head input {width: 650px; font-size: 20px; margin: 5px 0;border-radius: 7px;}
+    .text-write {margin: 20px 0 5px 0; text-align: center; }
+    .text-write textarea {width: 650px; height: 300px; resize: none; font-size: 16px; padding: 10px; border-radius: 7px; }
+    
+    .write-attach{table-layout: fixed; text-align: center;}
+    .write-attach input {width: 650px; font-size: 15px; margin: 5px 0; border-radius: 2px;}
+    
+    .write-button a {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 5px; text-align: center; font-weight: bold; width: 200px;
+                text-decoration: none; margin: 10px 0 0 0; color: rgb(135, 132, 132);}
+    .write-button {margin: 10px 10px 0 550px;}
+    .write-button button {border: 2px solid  rgb(135, 132, 132) ; border-radius: 5px; padding: 11px 5px 5px 5px; text-align: center; font-weight: bold; width: 65px; background-color: transparent;
+        text-decoration: none; margin: 10px 0 0 0; color: rgb(135, 132, 132);}
+
+    /* index */
+    .index {width: 978px; margin: 0 auto;}
+    .index-content {width: 650px; padding: 15px; float: left;}
+    .index-sidebar {width: 250px; padding: 15px; float: right;}
+    .index-container::after {content: ' '; display: block; clear: both;}
+    .index-container {width: auto; margin: 0 auto;}
+    .container-image {background-image:url(../images/banner.PNG); width: 978px; height: 150px; 
+                        background-size: 100% 100%;}
+    .news-top {background-image: url(../images/fish-47998_1280.png);width: 600px; height: 200px; background-size: 100% 100%; margin: 0 auto;}
+    .kyoungbow {background-image: url(../images/beautiful-2891549_640.jpg); width: 150px; height: 200px; background-size: 100% 100%;float: left;
+                border-radius: 3px;}
+    .fish-news {font-weight: bold;display: block;}
+    .fish-news h1 {text-align: center; color: #222;  font-size: 55px;}
+    span {font-weight: bold; color: rgb(212, 69, 69);}
+    .fish-news p {margin: 30px 0 0 160px; font-size: 14px; color: #555;}
+    .fish-news::after {content: ' '; display: block; clear: both;}
+    
+    .index h2 {border-bottom: 2px solid #222; font-weight: bold; padding: 50px 0 30px 0; font-size: 30px;}
+    .first-ad{width: 320px; float: left;}
+    .second-ad{width: 320px; float: right;}
+    .fish-ad::after{content: ' '; display: block; clear: both;}
+    .first-img{background-image: url(../images/animal-1299379_1280.png); width: 120px; height: 100px; background-size: 100% 100%;float: left; }
+    .first-content h4, .first-content p{text-align: center; margin: 5px 0 5px 0; font-weight: bold;}
+    .first-content p, .second-content p{font-size: 3px;}
+    .second-img{background-image: url(../images/adfaf.png); width: 120px; height: 100px; background-size: 100% 100%; float: left; }
+    .second-content h4, .second-content p{text-align: center; margin: 5px 0 5px 0; font-weight: bold;}
+    .second-ad::after{content: ' '; display: block; clear: both;}
+    
+    iframe {width: 325px; height: 150px; border: 3px ; border-radius: 10px;}
+    .hot-fish h3{margin : 50px 0 30px 0;}
+    .video-tv{float: left;}
+    .video-content{float: right; width: 300px; height: 150px; font-weight: bold;}
+    .video-content p{font-size: 12px; margin: 12px 0 0 0;}
+    .video {margin: 30px 0;}
+    .video::after{content: ' '; display: block; clear: both;}
+    .new-fish{ border: 1px gray; border-radius: 15px; text-align: center; text-decoration: none;}
+    .sidebar-image {background-image: url(../images/fish-546939_1280.png);width: 200px; height: 200px; background-size: 100% 100%;margin: 0 auto;}
+    .index-sidebar h3 {text-align: center;}
+    
+    .sign .sign-in a{background-image: url(../images/instagram-gfd2a732f3_1280.png); background-size: 100% 100%; padding: 0; margin: 0 5px 0 17px ; border: 1px solid #888; border-radius: 20px;
+                    float: left; width: 100px; height: 100px; text-decoration: none; color: #555; font-weight: bold; text-align: center;}
+    .sign .sign-up a{background-image: url(../images/instagram-g428a83c40_1280.png); background-size: 100% 100%; padding: 0; margin: 0 17px 0 5px ; border: 1px solid #888; border-radius: 20px;
+                    float: right; width: 100px; height: 100px; text-decoration: none; color: #555; font-weight: bold; text-align: center;}
+    .sign::after {content: ' '; display: block; clear: both;}               
+    .find{text-align: center ;text-decoration: none;}  
+                  
+    .etc { margin: 20px auto; padding: 30px 30px 0 30px;}
+    .etc p {margin: 5px 0 0 25px; font-size: 12px;}
+    .etc li {font-size: 16px; font-weight: bold; margin: 10px 0 10px 0;}
